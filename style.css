@@ -1,0 +1,144 @@
+body {
+	
+font-family:"Lucida Grande","Lucida Sans Unicode","bitstream vera sans","trebuchet ms",verdana;
+background-color: #E0EEEE;
+background-image: url(images/18094923.jpg); /* Путь к фоновому изображению */
+color:white;   
+}
+
+.right {
+position: relative;
+border: 4px double #00FF00;
+float: right;
+margin-top: 15px;
+margin-bottom: 10px;
+width: 17%;
+height: 33%;
+background-color: #008B45;
+padding: 5px 5px 15px 15px;
+border-radius: 15px;
+font-family: Verdana, sans-serif;
+color: #ffffff;
+}
+
+.left {
+	
+position: relative;
+border: 4px double #00FF00;
+float: left;
+margin-top: 15px;
+margin-bottom: 10px;
+
+width: 17%;
+height: 33%;
+background-color: #008B45;
+padding: 5px 5px 15px 15px;
+border-radius: 15px;
+font-family: Verdana, sans-serif;
+color: #ffffff;
+}
+
+.logo{
+margin-top: -150px;
+margin-left:10px;
+    
+margin-bottom: 15px;
+float: left;
+}
+
+.khnu_logo {
+margin-top: -157px;
+    
+margin-bottom: 15px;
+margin-right: 10px;
+float: right;
+}
+.round {
+border-radius: 100px; /* Радиус скругления */
+}
+
+#header {
+font-size: 16px;
+font-family: Verdana, sans-serif;
+color: #ffffff;
+padding: 5px 5px 5px 5px;
+z-index: 1;
+border-radius: 15px;
+width: auto;
+margin-top: 0px;
+height: auto;
+background-color: #008B45;
+margin-bottom: 10px;
+border: 4px double #00FF00;
+}
+
+#footer {
+	
+font-size: 18px;
+font-family: Verdana, sans-serif;
+text-align: center;
+color: #ffffff;
+padding: 5px 5px 5px 5px;
+z-index: 1;
+border-radius: 15px;
+width: auto;
+height: auto;
+background-color: #008B45;
+margin-top: 10px;
+margin-bottom: 10px;
+	
+clear: both;
+	
+border: 4px double #00FF00;
+}
+
+   #navbar {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        border: 2px solid #00FF00;
+        border-radius: 20px 5px;
+        width: auto;
+        text-align: center;
+        background-color: #32CD32;
+      }
+      #navbar li { display: inline; }
+      #navbar a {
+        color: #fff;
+        padding: 5px 20px;
+        text-decoration: none;
+        font-weight: bold;
+        display: inline-block;
+        width: auto;
+      }
+      #navbar a:hover {
+        border-radius: 20px 5px;
+        background-color: #00FF00;
+      }
+
+.center {
+width: 1100px;
+    padding: 10px; /* Поля вокруг текста */
+    margin: auto; /* Выравниваем по центру */
+
+}
+
+#on {
+border-radius: 20px 5px;
+        background-color: #00FF00;
+
+}
+
+
+.content{
+position: relative;
+margin-left: 220px;
+margin-top: 15px; 
+width: 635px;
+height: auto;
+padding: 5px 5px 5px 15px;
+background-color: #F5F5F5;
+border: 4px double black;
+border-radius: 15px;
+color: black;
+}
